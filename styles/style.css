@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Raleway', sans-serif !important;
+    background-color: #000000 !important;
+    color: #fff !important;
 }
 
 .container{
@@ -20,8 +22,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 0.8rem !important;
-    background-color: #fff;
-    border: solid 1px black;
+    background-color: rgb(26, 26, 26);
+    border: solid 1px rgb(128, 128, 128);
     border-radius: 5px;
     margin-bottom: 2.5rem;   
 }
@@ -33,4 +35,31 @@ body{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.1rem;
+}
+
+
+.highlight {
+    color: #ffa724;  /* Je kunt de kleur aanpassen naar wat je wilt, bijvoorbeeld een oranjetint */
+}
+
+.p-info{
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+
+/* media */
+@media screen and (max-width: 500px) {
+    .container{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        max-width: 90%;
+    }
 }
