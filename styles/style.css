@@ -4,19 +4,33 @@
     /* font-family:  */
 }
 
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
 .container{
-    margin-top: 2.5rem;
     max-width: 70%;
+    margin-top: 2.5rem;
 }
 
 .navbar {
+    font-weight: bold;
     max-width: 320px;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
     padding: 0.8rem !important;
     background-color: #fff;
     border: solid 1px black;
-    border-radius: 5px;   
+    border-radius: 5px;
+    margin-bottom: 2.5rem;   
 }
 
 
+.locatie{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+}
