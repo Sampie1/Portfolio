@@ -46,7 +46,7 @@ body {
 
 
 .highlight {
-    color: #449c3c;  /* Je kunt de kleur aanpassen naar wat je wilt, bijvoorbeeld een oranjetint */
+    color: #449c3c;
 }
 
 .p-info{
@@ -55,6 +55,18 @@ body {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
+}
+
+
+.row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.overmij-row{
+    max-width: 80%;
+    padding: 20px;
 }
 
 .text-col{
@@ -69,8 +81,8 @@ body {
 
 .img-col {
     display: flex;
-    align-items: center; /* Verticaal centreren */
-    justify-content: center; /* Horizontaal centreren */
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
