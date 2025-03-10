@@ -134,3 +134,27 @@ body {
     font-weight: bold;
     margin-top: 5rem;
 }
+
+.skill-row {
+    display: flex;
+    gap: 20px;
+}
+
+.skill-cols {
+    background-color: rgb(26, 26, 26);
+    border: solid 1px rgb(128, 128, 128);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Zet titel en tekst onder elkaar */
+}
+
+.zonder-margin{
+    margin-bottom: 0;
+}
